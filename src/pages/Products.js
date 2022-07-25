@@ -5,7 +5,7 @@ const Products = () => {
   return (
     <>
       <section className="section">
-        <h2>products</h2>
+        <h2>Products Page</h2>
         {productList.map((product) => (
           <Link to={product.id} key={product.id}>
             <div>{product.name}</div>
