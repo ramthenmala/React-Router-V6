@@ -1,8 +1,10 @@
 const Home = () => {
   return (
-    <section className='section'>
-      <h2>Home Page</h2>
-    </section>
+    <>
+      <section className="section">
+        <h1>Home Page</h1>
+      </section>
+    </>
   );
 };
 export default Home;
